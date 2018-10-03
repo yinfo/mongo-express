@@ -17,7 +17,7 @@ let app               = express();
 let notifier          = updateNotifier({ pkg });
 
 let config;
-let defaultPort = 80;
+let defaultPort = 3000;
 let server      = app;
 let sslOptions;
 
